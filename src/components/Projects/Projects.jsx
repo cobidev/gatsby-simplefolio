@@ -26,7 +26,7 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title=" Main Projects" />
           {projects.map((project,index) => {
             const { title, info, info2, url, repo, img } = project;
 
@@ -49,20 +49,21 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
+                     {url && ( 
                       <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
-                      >
-                        See Live
-                      </a>
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn text-color-main"
+                          href={url }
+                        >
+                          See Live
+                        </a>)}
 
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={repo}
                         >
                           Source Code
@@ -110,6 +111,16 @@ const Projects = () => {
               </Row>
             );
           })}
+          <p className="project-wrapper__text-title">
+                Many more to come!!, Checkout my {''} 
+                    <a href="https://github.com/rishik-00" target="_blank" rel="noopener noreferrer" className = "project-wrapper__text-title" >
+                        github
+                    </a> 
+                for more
+          </p>
+          
+                        
+                    
         </div>
       </Container>
     </section>
