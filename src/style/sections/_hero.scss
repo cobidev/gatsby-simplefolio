@@ -6,7 +6,8 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+ // color: $dark-blue-text;
+  color: $secondary-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -17,9 +18,9 @@
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("https://res.cloudinary.com/di4iku1b9/image/upload/v1606172155/bg_odapzd.png");
   background-position: center;
-  background-size: cover; */
+  background-size: cover; 
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
