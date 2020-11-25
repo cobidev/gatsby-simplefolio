@@ -10,14 +10,14 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: "Salut, je m'appele",
-  name: 'Liudmylla',
+  name: 'Liudmyla',
   subtitle: 'Je suis une développeuse Web ',
   cta: 'Voir plus',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'about.jpg',
   paragraphOne: 'coming soon',
   paragraphTwo: 'coming soon',
   paragraphThree: 'coming soon',
@@ -30,7 +30,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: 'Un site vitrine',
+    title: 'Un site vitrine de salon de beauté',
     info: 'Gatsby+Contentful+Netlify',
     info2: 'Git+React',
     url: 'https://ml-facialiste.netlify.app/',
@@ -38,58 +38,58 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.jpg',
+    title: 'Un site vitrine pour une agence de tourisme',
+    info: 'Gatsby+Contentful+Netlify',
+    info2: 'Git+React',
+    url: 'https://biarritz-beregbaskov.netlify.app/',
+    repo: 'https://gitlab.com/Liudmylla/biarritz-bereg-baskov', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project3.jpg',
+    title: 'Un site vitrine pour la créatrice des videos',
+    info: 'Gatsby+Cloudinary+Netlify',
+    info2: 'Git+React',
+    url: 'https://marina-video.netlify.app/',
+    repo: 'https://gitlab.com/Liudmylla/marina-marishkette-dimension', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "Souhaitez-vous m'embaucher? ",
+  btn: 'Parlons',
+  email: 'liudmyla.duvivier@outlook.fr',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: nanoid(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/liudmyla-duvivier-05570b15a/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Liudmylla',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
