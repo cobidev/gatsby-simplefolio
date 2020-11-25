@@ -18,9 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'about.jpg',
-  paragraphOne: 'coming soon',
-  paragraphTwo: 'coming soon',
-  paragraphThree: 'coming soon',
+  paragraphOne:
+    'Après la formation bac +2 Développer Web/web mobile je continue développer mes compétences front-end.',
+  paragraphTwo:
+    'Mon but est de créer les sites internet attractifs, fonctionnels et adaptés à ses utilisateurs, afin que ces derniers puissent les utiliser facilement et souhaitent y revenir.',
+  paragraphThree:
+    "Je suis capable d'utiliser différentes technologies: PHP, MySql, JS, HTML, SCC et je suis passionnée de React et Graphql avec Gatsby.js",
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
   resume: 'https://www.linkedin.com/in/liudmyla-duvivier-05570b15a/', // if no resume, the button will not show up'
 };
@@ -54,13 +57,22 @@ export const projectsData = [
     url: 'https://marina-video.netlify.app/',
     repo: 'https://gitlab.com/Liudmylla/marina-marishkette-dimension', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'project4.jpg',
+    title: 'Un site pour l’association avec une gestion de contenue',
+    info: 'PHP(poo) + MySql',
+    info2: 'Bootstrap + JQuery',
+    url: 'https://russe64.fr/',
+    repo: 'https://gitlab.com/Liudmylla/annonces_russes', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Souhaitez-vous me contacter? ',
+  cta: "Je m'appele Liudmyla Duvivier et j'habite à Biarritz dans le Sud-Ouest de la France ",
   btn: 'E-mail',
-  email: 'liudmyla.duvivier@outlook.fr',
+  email: 'liudmyla12@yahoo.fr',
 };
 
 // FOOTER DATA
