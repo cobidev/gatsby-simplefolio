@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Liudmyla-dev-portfolio', // e.g: 'Name | Developer'
+  title: 'Ludmyla-dev-portfolio', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
   description: 'Front-end developper', // e.g: Welcome to my website
 };
@@ -10,7 +10,7 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: "Salut, je m'appele",
-  name: 'Liudmyla',
+  name: 'Ludmyla',
   subtitle: 'Je suis une développeuse Web ',
   cta: 'Voir plus',
 };
@@ -58,8 +58,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: "Souhaitez-vous m'embaucher? ",
-  btn: 'Parlons',
+  cta: 'Souhaitez-vous me contacter? ',
+  btn: 'E-mail',
   email: 'liudmyla.duvivier@outlook.fr',
 };
 
@@ -71,11 +71,11 @@ export const footerData = {
     //   name: 'twitter',
     //   url: '',
     // },
-    // {
-    //   id: nanoid(),
-    //   name: 'codepen',
-    //   url: '',
-    // },
+    {
+      id: nanoid(),
+      name: 'gitlab',
+      url: 'https://gitlab.com/Liudmylla',
+    },
     {
       id: nanoid(),
       name: 'linkedin',
