@@ -19,13 +19,13 @@ export const heroData = {
 export const aboutData = {
   img: 'about.jpg',
   paragraphOne:
-    'Après la formation bac +2 Développer Web/web mobile je continue développer mes compétences front-end.',
+    'Après la formation bac +2 Développer Web/web mobile je continue à développer mes compétences front-end.',
   paragraphTwo:
-    'Mon but est de créer les sites internet attractifs, fonctionnels et adaptés à ses utilisateurs, afin que ces derniers puissent les utiliser facilement et souhaitent y revenir.',
+    "J'essay à créer les sites internet attractifs, fonctionnels et adaptés à ses utilisateurs, afin que ces derniers puissent les utiliser facilement et souhaitent y revenir.",
   paragraphThree:
     "Je suis capable d'utiliser différentes technologies: PHP, MySql, JS, HTML, SCC et je suis passionnée de React et Graphql avec Gatsby.js",
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-  resume: 'https://www.linkedin.com/in/liudmyla-duvivier-05570b15a/', // if no resume, the button will not show up'
+  resume: 'https://drive.google.com/file/d/1Nz94LvE1KYHSVYKh1BBb9Od48Njw3GN-/view?usp=sharing', // if no resume, the button will not show up'
 };
 
 // PROJECTS DATA
