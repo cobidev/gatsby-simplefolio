@@ -5,6 +5,7 @@ export const headData = {
   title: 'Ludmyla-dev-portfolio', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
   description: 'Front-end developper', // e.g: Welcome to my website
+  img: 'bg1.jpg',
 };
 
 // HERO DATA
@@ -47,6 +48,24 @@ export const projectsData = [
     info2: 'Git+React',
     url: 'https://biarritz-beregbaskov.netlify.app/',
     repo: 'https://gitlab.com/Liudmylla/biarritz-bereg-baskov', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project5.jpg',
+    title: 'Un site vitrine pour un salon du maquillage permanent ',
+    info: 'Gatsby+Netlify',
+    info2: 'Git+React',
+    url: 'https://lessia.netlify.app/',
+    repo: 'https://github.com/liudmylla/marina_marishkette', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project6.jpg',
+    title: 'Un site vitrine pour une esthéticienne',
+    info: 'Gatsby+Netlify',
+    info2: 'Git+React',
+    url: 'https://espace-estethique64.netlify.app/',
+    repo: 'https://gitlab.com/Liudmylla/photo-galery', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
