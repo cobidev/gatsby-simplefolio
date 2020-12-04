@@ -5,7 +5,6 @@ export const headData = {
   title: 'Ludmyla-dev-portfolio', // e.g: 'Name | Developer'
   lang: 'fr', // e.g: en, es, fr, jp
   description: 'Front-end developper', // e.g: Welcome to my website
-  img: 'bg1.jpg',
 };
 
 // HERO DATA
