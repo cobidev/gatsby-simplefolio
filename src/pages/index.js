@@ -12,6 +12,10 @@ export default () => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
+        <meta
+          name="google-site-verification"
+          content="FSdXU7kWqRAdcotPgSFEQ06Y7HJYFceFR8Q_HKDdcfg"
+        />
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'fr'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
