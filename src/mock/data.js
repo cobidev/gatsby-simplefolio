@@ -32,6 +32,7 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
+    cta: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -41,6 +42,7 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
+    cta: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -50,6 +52,7 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
+    cta: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
