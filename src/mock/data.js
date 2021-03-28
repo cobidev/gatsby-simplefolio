@@ -3,29 +3,27 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Ludmyla-dev-portfolio', // e.g: 'Name | Developer'
-  lang: 'fr', // e.g: en, es, fr, jp
-  description: 'Front-end developper', // e.g: Welcome to my website
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Developer full stack', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: "Bonjour, je m'appele",
-  name: 'Ludmyla',
-  subtitle: 'Je suis une développeuse Web ',
-  cta: 'Voir plus',
+  title: '',
+  name: 'Ludmyla Duvivier',
+  subtitle: 'Full stack developer ',
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'about.jpg',
+  img: 'IMG_0926.jpg',
   paragraphOne:
-    'Après la formation bac +2 Développer Web/web mobile je continue à développer mes compétences front-end.',
+    'Familiar  with commons stacks (LAMP, MEAN, JAM).Experience developing websites  and applications  using Git for version control.Understanding  of the full stack from Rest backend to modern SPA frontend.',
   paragraphTwo:
-    "J'essay à créer les sites internet attractifs, fonctionnels et adaptés à ses utilisateurs, afin que ces derniers puissent les utiliser facilement et souhaitent y revenir.",
-  paragraphThree:
-    "Je suis capable d'utiliser différentes technologies: PHP, MySql, JS, HTML, SCC et je suis passionnée de React et Graphql avec Gatsby.js",
-  // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
-  resume: 'https://drive.google.com/file/d/1Nz94LvE1KYHSVYKh1BBb9Od48Njw3GN-/view?usp=sharing', // if no resume, the button will not show up'
+    'Knowledge: React,Gatsby,HeadlessCMS,GraphQL, Sass, Bootstrap, MySql,Nodejs(Hapi),Docker,Linux(Ubuntu),Mongodb(Mongoose)',
+  paragraphThree: 'Proficient: JavaScript/Typescript, Angular, RxJs,PHP Symfony,HTML/CSS..',
+  resume: 'https://drive.google.com/file/d/1jXRwGn6EfRSI_nbAMd6zaqA7s-Bl0e--/view?usp=sharing', // if no resume, the button will not show up'
 };
 
 // PROJECTS DATA
@@ -33,7 +31,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: 'Un site vitrine de salon de beauté',
+    title: 'Static web site for a beauty salon',
     info: 'Gatsby+Contentful+Netlify',
     info2: 'Git+React',
     url: 'https://ml-facialiste.netlify.app/',
@@ -42,7 +40,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project2.jpg',
-    title: 'Un site vitrine pour une agence de tourisme',
+    title: 'Static web site for a tourism agency',
     info: 'Gatsby+Contentful+Netlify',
     info2: 'Git+React',
     url: 'https://biarritz-beregbaskov.netlify.app/',
@@ -51,7 +49,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project5.jpg',
-    title: 'Un site vitrine pour un salon du maquillage permanent ',
+    title: 'Static web site for a permanent makeup salon ',
     info: 'Gatsby+Netlify',
     info2: 'Git+React',
     url: 'https://lessia.netlify.app/',
@@ -60,7 +58,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project6.jpg',
-    title: 'Un site vitrine pour une esthéticienne',
+    title: 'Static web site for a beautician',
     info: 'Gatsby+Netlify',
     info2: 'Git+React',
     url: 'https://espace-estethique64.netlify.app/',
@@ -69,7 +67,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: 'Un site vitrine pour la créatrice des videos',
+    title: 'Static web site for the creator of the videos',
     info: 'Gatsby+Cloudinary+Netlify',
     info2: 'Git+React',
     url: 'https://marina-video.netlify.app/',
@@ -78,7 +76,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project4.jpg',
-    title: 'Un site pour l’association avec une gestion de contenue',
+    title: 'A blog site for the association with admin part ',
     info: 'PHP(poo) + MySql',
     info2: 'Bootstrap + JQuery',
     url: 'https://russe64.fr/',
@@ -88,8 +86,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: "Je m'appele Liudmyla Duvivier et j'habite à Biarritz dans le Sud-Ouest de la France ",
-  btn: 'E-mail',
+  cta: '',
+  btn: '',
   email: 'liudmyla12@yahoo.fr',
 };
 
