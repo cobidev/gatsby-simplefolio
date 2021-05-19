@@ -23,7 +23,8 @@ export const aboutData = {
   paragraphTwo:
     'Knowledge: React,Gatsby,HeadlessCMS,GraphQL, Sass, Bootstrap, MySql,Nodejs(Hapi),Docker,Linux(Ubuntu),Mongodb(Mongoose)',
   paragraphThree: 'Proficient: JavaScript/Typescript, Angular, RxJs,PHP Symfony,HTML/CSS..',
-  resume: 'https://drive.google.com/file/d/1jXRwGn6EfRSI_nbAMd6zaqA7s-Bl0e--/view?usp=sharing', // if no resume, the button will not show up'
+  resume:
+    'https://docs.google.com/document/d/1f86nriqIocSBZFzVoPtihM4Go-jWgi6LtZJcrKo_bMw/edit?usp=sharing', // if no resume, the button will not show up'
 };
 
 // PROJECTS DATA
@@ -31,7 +32,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project1.jpg',
-    title: 'Static web site for a beauty salon',
+    title: 'Static website for Beauty salon "Mlfacialiste"',
     info: 'Gatsby+Contentful+Netlify',
     info2: 'Git+React',
     url: 'https://ml-facialiste.netlify.app/',
@@ -40,7 +41,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project2.jpg',
-    title: 'Static web site for a tourism agency',
+    title: 'Static website for Travel agency "BBB',
     info: 'Gatsby+Contentful+Netlify',
     info2: 'Git+React',
     url: 'https://biarritz-beregbaskov.netlify.app/',
@@ -49,7 +50,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project5.jpg',
-    title: 'Static web site for a permanent makeup salon ',
+    title: 'Static website for Permanent makeup studio "Lessia"',
     info: 'Gatsby+Netlify',
     info2: 'Git+React',
     url: 'https://lessia.netlify.app/',
@@ -58,7 +59,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project6.jpg',
-    title: 'Static web site for a beautician',
+    title: 'Static website for Beauty salon "Lana"',
     info: 'Gatsby+Netlify',
     info2: 'Git+React',
     url: 'https://espace-estethique64.netlify.app/',
@@ -67,20 +68,11 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: 'Static web site for the creator of the videos',
+    title: 'Static website for video production studio ',
     info: 'Gatsby+Cloudinary+Netlify',
     info2: 'Git+React',
     url: 'https://marina-video.netlify.app/',
     repo: 'https://gitlab.com/Liudmylla/marina-marishkette-dimension', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project4.jpg',
-    title: 'A blog site for the association with admin part ',
-    info: 'PHP(poo) + MySql',
-    info2: 'Bootstrap + JQuery',
-    url: 'https://russe64.fr/',
-    repo: 'https://gitlab.com/Liudmylla/annonces_russes', // if no repo, the button will not show up
   },
 ];
 
