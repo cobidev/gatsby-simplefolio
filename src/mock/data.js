@@ -2,25 +2,31 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: '' || 'Name | Developer', // e.g: 'Name | Developer'
+  lang: '' || 'en', // e.g: en, es, fr, jp
+  description: '' || 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: '' || 'Hi, my name is',
+  name: '' || 'Your Name',
+  subtitle: '' || "I'm the Unknown Developer.",
+  cta: '' || 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: '' || 'profile.jpg',
+  paragraphOne:
+    '' ||
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+  paragraphTwo:
+    '' ||
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
+  paragraphThree:
+    '' ||
+    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,8 +35,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: '' || 'Project Title',
+    info:
+      '' ||
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -38,8 +46,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: '' || 'Project Title',
+    info:
+      '' ||
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -47,8 +57,10 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: '' || 'Project Title',
+    info:
+      '' ||
+      'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
@@ -57,8 +69,8 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta: '' || 'Would you like to work with me? Awesome!',
+  btn: '' || "Let's Talk",
   email: '',
 };
 
@@ -68,22 +80,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: '' || 'https://github.com/cobidev/gatsby-simplefolio',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: '' || 'https://github.com/cobidev/gatsby-simplefolio',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: '' || 'https://github.com/cobidev/gatsby-simplefolio',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: '' || 'https://github.com/cobidev/gatsby-simplefolio',
     },
   ],
 };
