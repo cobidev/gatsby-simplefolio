@@ -48,15 +48,15 @@
       }
 
       &-text {
-        text-align: left;
+        text-align: justify;
 
         @include respond(tab-port) {
           font-size: 1.5rem;
-          text-align: center;
+          text-align: justify;
         }
         @include respond(phone) {
           font-size: 1.6rem;
-          text-align: center;
+          text-align: justify;
         }
 
         &--important {
