@@ -17,11 +17,11 @@ function App() {
   const [footer, setFooter] = useState({});
 
   useEffect(() => {
-    setHero({ ...heroData });
-    setAbout({ ...aboutData });
-    setProjects([...projectsData]);
-    setContact({ ...contactData });
-    setFooter({ ...footerData });
+    setHero(heroData);
+    setAbout(aboutData);
+    setProjects(projectsData);
+    setContact(contactData);
+    setFooter(footerData);
   }, []);
 
   return (
