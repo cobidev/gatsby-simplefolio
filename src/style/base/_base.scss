@@ -3,6 +3,24 @@ html {
 }
 
 body {
+  --color-page-background: #{$light-color};
+  --color-heading: #{$light-text-heading};
+  --color-primary: #{$light-primary-color};
+  --color-secondary: #{$light-secondary-color};
+
+  --color-text: #{$light-color};
+
+  background-color: var(--color-page-background);
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --color-page-background: #{$dark-color};
+    --color-heading: #{$dark-text-heading};
+    --color-primary: #{$dark-primary-color};
+    --color-secondary: #{$dark-secondary-color};
+    --color-text: #{$dark-color};
+  }
 }

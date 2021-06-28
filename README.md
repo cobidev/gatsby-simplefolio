@@ -17,6 +17,7 @@
 ⚡️ Image optimization with Gatsby\
 ⚡️ Easy site customization\
 ⚡️ Well organized documentation
+⚡️ Dark mode
 
 To view a demo example, **[click here](https://gatsby-simplefolio.netlify.com/)**\
 To view a live example, **[click here](https://cobidev.com/)**
@@ -218,15 +219,25 @@ export const githubButtons = {
 
 Change the color theme of the website ( choose 2 colors to create a gradient ):
 
-Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$main-color` and `$secondary-color` to your prefered HEX color
+Go to `src/styles/abstracts/_variables.scss` and only change the values on this classes `$light-primary-color` and `$light-secondary-color` to your prefered HEX color.
 
 ```scss
 // Default values
-$main-color: #02aab0;
-$secondary-color: #00cdac;
+$light-primary-color: #4b6cb7;
+$light-secondary-color: #182848;
 ```
 
 **_Note_**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#BrightVault)
+
+#### Dark mode 🌜
+
+This template is compatible with the dark mode in the browser, if you want more control over the gradients in the dark mode you can go to `_variables.scss` and change the variables `$dark-primary-color` and `$dark-secondary-color` for colors of your preferences.
+
+```scss
+// Default dark mode values
+$dark-primary-color: invert($light-primary-color, 50%);
+$dark-secondary-color: invert($light-secondary-color, 50%);
+```
 
 ---
 

@@ -23,23 +23,23 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background-image: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-width: 2px;
   border-style: solid;
-  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  border-image: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
   border-image-slice: 1;
   cursor: pointer;
   // Responsive Button hero style
   @include respond(phone) {
     background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    border: 2px solid var(--color-secondary);
+    -webkit-text-fill-color: var(--color-secondary);
   }
 
   &::after {
-    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+    background-image: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     // Responsive Button hero style
     @include respond(phone) {
       background-image: none;
@@ -51,7 +51,7 @@
     text-decoration: none;
     // Responsive Button hover hero style
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-color;
+      -webkit-text-fill-color: var(--color-secondary);
     }
 
     &::after {
@@ -62,15 +62,16 @@
 
 /* Resume Style */
 .cta-btn--resume {
-  color: $white-color;
+  color: var(--color-text);
   border: 2px solid $white-color;
+  border-color: var(--color-text);
 
   &::after {
     background: $white-color;
   }
 
   &:hover {
-    color: $secondary-color;
+    color: var(--color-secondary);
     text-decoration: none;
 
     &::after {

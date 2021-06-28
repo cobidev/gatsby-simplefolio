@@ -1,15 +1,24 @@
-// COLORS
-$primary-color: #02aab0;
-$secondary-color: #00cdac;
-
-// $primary-color: #7f449d;
-// $secondary-color: #793fc1;
 
 $white-color: #fff;
 
-$dark-grey: #333333;
+// BACKGROUND COLORS
+$light-color: #fff;
+$dark-color: #1a1a1a;
 
-$dark-blue-text: #272341; // For Headings
+// HEADING COLORS
+$light-text-heading: #272341; 
+$dark-text-heading: #FFF;
+
+// PRIMARY COLORS
+$light-primary-color: #4b6cb7; // hsl(222, 43%, 51%)
+$light-primary: 0;
+$dark-primary-color: invert($light-primary-color, 50%);
+
+// SECONDARY COLORS
+$light-secondary-color: #182848;
+$dark-secondary-color: invert($light-secondary-color, 50%);
+
+$dark-grey: #333333;
 
 // FONT SIZE
 $default-font-size: 1.6rem;

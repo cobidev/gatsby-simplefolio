@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: var(--color-page-background);
   font-weight: 400;
-  color: $dark-blue-text;
+  color: var(--color-heading);
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
