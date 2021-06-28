@@ -28,8 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
-
+            const { title, info, info2, url, repo, img, id, technologies } = project;
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -49,6 +48,26 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
+                      {Array.isArray(technologies) && technologies.length && (
+                        <div className="project-wrapper__technologies">
+                          <h4 className="project-wrapper__technologies-title">Technologies:</h4>
+                          <div className="project-wrapper__technologies-list">
+                            {technologies.map(({ value, iconLink, technologyId }) => (
+                              <span
+                                className={`technology${iconLink ? ' with-icon' : ''}`}
+                                key={technologyId}
+                              >
+                                {value}
+                                {iconLink && (
+                                  <span className="technology__icon">
+                                    <img alt={value} src={iconLink} />
+                                  </span>
+                                )}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                       <a
                         target="_blank"
                         rel="noopener noreferrer"

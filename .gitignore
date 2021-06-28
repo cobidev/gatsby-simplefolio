@@ -55,6 +55,9 @@ package-lock.json
 # dotenv environment variable files
 .env*
 
+# versioned dependencies
+package-lock.json
+
 # gatsby files
 .cache/
 public

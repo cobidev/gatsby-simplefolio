@@ -34,6 +34,24 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    technologies: [
+      {
+        value: 'React.JS',
+        technologyId: nanoid(),
+        iconLink: 'https://simpleicons.org/icons/react.svg',
+      },
+      {
+        value: 'HTML5',
+        technologyId: nanoid(),
+        iconLink: 'https://simpleicons.org/icons/html5.svg',
+      },
+      {
+        value: 'Netlify',
+        technologyId: nanoid(),
+        iconLink: 'https://simpleicons.org/icons/netlify.svg',
+      },
+      { value: 'Node.JS', technologyId: nanoid() },
+    ],
   },
   {
     id: nanoid(),
@@ -43,6 +61,23 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    technologies: [
+      {
+        value: 'React.JS',
+        technologyId: nanoid(),
+        iconLink: 'https://simpleicons.org/icons/react.svg',
+      },
+      {
+        value: 'HTML5',
+        technologyId: nanoid(),
+        iconLink: 'https://simpleicons.org/icons/html5.svg',
+      },
+      {
+        value: 'MongoDB',
+        technologyId: nanoid(),
+        iconLink: 'https://simpleicons.org/icons/mongodb.svg',
+      },
+    ],
   },
   {
     id: nanoid(),
