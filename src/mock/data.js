@@ -77,12 +77,17 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'linkedin',
+      name: 'linkedin-in',
       url: '',
     },
     {
       id: nanoid(),
       name: 'github',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'goodreads-g',
       url: '',
     },
   ],
